@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540E36B929752332008CBC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36B829752332008CBC5C /* AppDelegate.swift */; };
+		540E36BB29752332008CBC5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36BA29752332008CBC5C /* SceneDelegate.swift */; };
+		540E36BD29752332008CBC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36BC29752332008CBC5C /* ViewController.swift */; };
+		540E36C029752332008CBC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540E36BE29752332008CBC5C /* Main.storyboard */; };
+		540E36C229752333008CBC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540E36C129752333008CBC5C /* Assets.xcassets */; };
+		540E36C529752333008CBC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540E36C329752333008CBC5C /* LaunchScreen.storyboard */; };
+		540E36D029752333008CBC5C /* UITableview_Swipe_ActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36CF29752333008CBC5C /* UITableview_Swipe_ActionsTests.swift */; };
+		540E36DA29752333008CBC5C /* UITableview_Swipe_ActionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36D929752333008CBC5C /* UITableview_Swipe_ActionsUITests.swift */; };
+		540E36DC29752333008CBC5C /* UITableview_Swipe_ActionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E36DB29752333008CBC5C /* UITableview_Swipe_ActionsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540E36CC29752333008CBC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540E36AD29752332008CBC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540E36B429752332008CBC5C;
+			remoteInfo = "UITableview Swipe Actions";
+		};
+		540E36D629752333008CBC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540E36AD29752332008CBC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540E36B429752332008CBC5C;
+			remoteInfo = "UITableview Swipe Actions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540E36B529752332008CBC5C /* UITableview Swipe Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableview Swipe Actions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540E36B829752332008CBC5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		540E36BA29752332008CBC5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		540E36BC29752332008CBC5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		540E36BF29752332008CBC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		540E36C129752333008CBC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540E36C429752333008CBC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		540E36C629752333008CBC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540E36CB29752333008CBC5C /* UITableview Swipe ActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableview Swipe ActionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540E36CF29752333008CBC5C /* UITableview_Swipe_ActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableview_Swipe_ActionsTests.swift; sourceTree = "<group>"; };
+		540E36D529752333008CBC5C /* UITableview Swipe ActionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableview Swipe ActionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540E36D929752333008CBC5C /* UITableview_Swipe_ActionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableview_Swipe_ActionsUITests.swift; sourceTree = "<group>"; };
+		540E36DB29752333008CBC5C /* UITableview_Swipe_ActionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableview_Swipe_ActionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540E36B229752332008CBC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36C829752333008CBC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36D229752333008CBC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540E36AC29752332008CBC5C = {
+			isa = PBXGroup;
+			children = (
+				540E36B729752332008CBC5C /* UITableview Swipe Actions */,
+				540E36CE29752333008CBC5C /* UITableview Swipe ActionsTests */,
+				540E36D829752333008CBC5C /* UITableview Swipe ActionsUITests */,
+				540E36B629752332008CBC5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540E36B629752332008CBC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540E36B529752332008CBC5C /* UITableview Swipe Actions.app */,
+				540E36CB29752333008CBC5C /* UITableview Swipe ActionsTests.xctest */,
+				540E36D529752333008CBC5C /* UITableview Swipe ActionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540E36B729752332008CBC5C /* UITableview Swipe Actions */ = {
+			isa = PBXGroup;
+			children = (
+				540E36B829752332008CBC5C /* AppDelegate.swift */,
+				540E36BA29752332008CBC5C /* SceneDelegate.swift */,
+				540E36BC29752332008CBC5C /* ViewController.swift */,
+				540E36BE29752332008CBC5C /* Main.storyboard */,
+				540E36C129752333008CBC5C /* Assets.xcassets */,
+				540E36C329752333008CBC5C /* LaunchScreen.storyboard */,
+				540E36C629752333008CBC5C /* Info.plist */,
+			);
+			path = "UITableview Swipe Actions";
+			sourceTree = "<group>";
+		};
+		540E36CE29752333008CBC5C /* UITableview Swipe ActionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				540E36CF29752333008CBC5C /* UITableview_Swipe_ActionsTests.swift */,
+			);
+			path = "UITableview Swipe ActionsTests";
+			sourceTree = "<group>";
+		};
+		540E36D829752333008CBC5C /* UITableview Swipe ActionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				540E36D929752333008CBC5C /* UITableview_Swipe_ActionsUITests.swift */,
+				540E36DB29752333008CBC5C /* UITableview_Swipe_ActionsUITestsLaunchTests.swift */,
+			);
+			path = "UITableview Swipe ActionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540E36B429752332008CBC5C /* UITableview Swipe Actions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540E36DF29752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe Actions" */;
+			buildPhases = (
+				540E36B129752332008CBC5C /* Sources */,
+				540E36B229752332008CBC5C /* Frameworks */,
+				540E36B329752332008CBC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableview Swipe Actions";
+			productName = "UITableview Swipe Actions";
+			productReference = 540E36B529752332008CBC5C /* UITableview Swipe Actions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540E36CA29752333008CBC5C /* UITableview Swipe ActionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540E36E229752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe ActionsTests" */;
+			buildPhases = (
+				540E36C729752333008CBC5C /* Sources */,
+				540E36C829752333008CBC5C /* Frameworks */,
+				540E36C929752333008CBC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540E36CD29752333008CBC5C /* PBXTargetDependency */,
+			);
+			name = "UITableview Swipe ActionsTests";
+			productName = "UITableview Swipe ActionsTests";
+			productReference = 540E36CB29752333008CBC5C /* UITableview Swipe ActionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		540E36D429752333008CBC5C /* UITableview Swipe ActionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540E36E529752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe ActionsUITests" */;
+			buildPhases = (
+				540E36D129752333008CBC5C /* Sources */,
+				540E36D229752333008CBC5C /* Frameworks */,
+				540E36D329752333008CBC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540E36D729752333008CBC5C /* PBXTargetDependency */,
+			);
+			name = "UITableview Swipe ActionsUITests";
+			productName = "UITableview Swipe ActionsUITests";
+			productReference = 540E36D529752333008CBC5C /* UITableview Swipe ActionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540E36AD29752332008CBC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					540E36B429752332008CBC5C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					540E36CA29752333008CBC5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 540E36B429752332008CBC5C;
+					};
+					540E36D429752333008CBC5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 540E36B429752332008CBC5C;
+					};
+				};
+			};
+			buildConfigurationList = 540E36B029752332008CBC5C /* Build configuration list for PBXProject "UITableview Swipe Actions" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540E36AC29752332008CBC5C;
+			productRefGroup = 540E36B629752332008CBC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540E36B429752332008CBC5C /* UITableview Swipe Actions */,
+				540E36CA29752333008CBC5C /* UITableview Swipe ActionsTests */,
+				540E36D429752333008CBC5C /* UITableview Swipe ActionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540E36B329752332008CBC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E36C529752333008CBC5C /* LaunchScreen.storyboard in Resources */,
+				540E36C229752333008CBC5C /* Assets.xcassets in Resources */,
+				540E36C029752332008CBC5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36C929752333008CBC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36D329752333008CBC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540E36B129752332008CBC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E36BD29752332008CBC5C /* ViewController.swift in Sources */,
+				540E36B929752332008CBC5C /* AppDelegate.swift in Sources */,
+				540E36BB29752332008CBC5C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36C729752333008CBC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E36D029752333008CBC5C /* UITableview_Swipe_ActionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540E36D129752333008CBC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E36DA29752333008CBC5C /* UITableview_Swipe_ActionsUITests.swift in Sources */,
+				540E36DC29752333008CBC5C /* UITableview_Swipe_ActionsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540E36CD29752333008CBC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540E36B429752332008CBC5C /* UITableview Swipe Actions */;
+			targetProxy = 540E36CC29752333008CBC5C /* PBXContainerItemProxy */;
+		};
+		540E36D729752333008CBC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540E36B429752332008CBC5C /* UITableview Swipe Actions */;
+			targetProxy = 540E36D629752333008CBC5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		540E36BE29752332008CBC5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540E36BF29752332008CBC5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		540E36C329752333008CBC5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540E36C429752333008CBC5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540E36DD29752333008CBC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		540E36DE29752333008CBC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540E36E029752333008CBC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UITableview Swipe Actions/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-Actions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540E36E129752333008CBC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UITableview Swipe Actions/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-Actions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		540E36E329752333008CBC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-ActionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableview Swipe Actions.app/UITableview Swipe Actions";
+			};
+			name = Debug;
+		};
+		540E36E429752333008CBC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-ActionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableview Swipe Actions.app/UITableview Swipe Actions";
+			};
+			name = Release;
+		};
+		540E36E629752333008CBC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-ActionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableview Swipe Actions";
+			};
+			name = Debug;
+		};
+		540E36E729752333008CBC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simbesi.UITableview-Swipe-ActionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UITableview Swipe Actions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540E36B029752332008CBC5C /* Build configuration list for PBXProject "UITableview Swipe Actions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E36DD29752333008CBC5C /* Debug */,
+				540E36DE29752333008CBC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540E36DF29752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe Actions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E36E029752333008CBC5C /* Debug */,
+				540E36E129752333008CBC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540E36E229752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe ActionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E36E329752333008CBC5C /* Debug */,
+				540E36E429752333008CBC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540E36E529752333008CBC5C /* Build configuration list for PBXNativeTarget "UITableview Swipe ActionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E36E629752333008CBC5C /* Debug */,
+				540E36E729752333008CBC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540E36AD29752332008CBC5C /* Project object */;
+}
